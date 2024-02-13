@@ -1,0 +1,5 @@
+# gke service account key
+/secret.json
+
+# gke variables
+/terraform.tfvars
