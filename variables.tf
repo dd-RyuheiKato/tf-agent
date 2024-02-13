@@ -1,15 +1,15 @@
 # from terraform.tfvars
 variable gcp_project_id {
-  description = "datadog-sandbox"
+  description = "YOUR_PROJECT_ID"
 }
 variable gcp_region {
-  description = "asia-northeast1"
+  description = "GCP_REGION"
 }
 
 # others
 variable "cluster_name" {
   description = "created by terraform"
-  default     = "ryuhei-gke-cluster"
+  default     = "YOUR_CLUSTER_NAME"
 }
 variable "env_name" {
   description = "This is a test environment"
@@ -17,11 +17,11 @@ variable "env_name" {
 }
 variable "network" {
   description = "name of VPC"
-  default     = "default"
+  default     = "NAME_OF_VPC"
 }
 variable "subnetwork" {
   description = "name of subnetwork"
-  default     = "default"
+  default     = "NAME_OF_SUBNET"
 }
 variable "ip_range_pods_name" {
   description = "name of secondary ip range used in pods"
